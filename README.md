@@ -1,6 +1,6 @@
 # vue-sortable
 
-> A Vue.js project
+> A Vue.js project<br>
 > vue2.x 结合sortableJS的vue版（vuedraggable  ），实现拖拽排序
 
 ## Build Setup
