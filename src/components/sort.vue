@@ -66,10 +66,10 @@ export default {
       this.list2 = this.list2.sort((x, y) => x.order - y.order)
     },
     addToList1 () {
-      this.list1.push({name: `list1_added${this.list1.length + 1}`, order: this.list1.length + 1, id: uuid()})
+      this.list1.push({name: `list1_add`, order: this.list1.length + 1, id: uuid()})
     },
     addToList2 () {
-      this.list2.push({name: `list2_added${this.list2.length + 1}`, order: this.list2.length + 1, id: uuid()})
+      this.list2.push({name: `list2_add`, order: this.list2.length + 1, id: uuid()})
     }
   },
   computed: {
@@ -137,13 +137,17 @@ export default {
     padding: 10px;
     margin: 0 auto;
     display: flex;
+    height: 500px;
+    overflow-y: scroll;
     border: 1px solid grey;
     .dragWrap {
-      width: 80px;
+      width: 110px;
       border: 1px solid gray;
       border-radius: 4px;
       margin-right: 10px;
       padding: 4px;
+      position: relative;
+      overflow: auto;
       .transition-move {
         transition: 0.5s;
       }
@@ -155,7 +159,7 @@ export default {
         height: 30px;
         line-height: 30px;
         margin-bottom: 5px;
-        width: 70px;
+        width: 100px;
         cursor: move;
         &:hover {
           color: #fff;
@@ -169,6 +173,8 @@ export default {
       border: 1px solid gray;
       margin-right: 5px;
       text-align: left;
+      position: relative;
+      overflow: auto;
     }
   }
 </style>

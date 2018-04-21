@@ -94,7 +94,7 @@ export default {
     display: flex;
     border: 1px solid grey;
     .dragWrap {
-      width: 80px;
+      width: 90px;
       border: 1px solid gray;
       border-radius: 4px;
       margin-right: 10px;
@@ -110,7 +110,7 @@ export default {
         height: 30px;
         line-height: 30px;
         margin-bottom: 5px;
-        width: 70px;
+        width: 80px;
         cursor: move;
         &:hover {
           color: #fff;
