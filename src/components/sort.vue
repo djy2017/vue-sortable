@@ -137,7 +137,7 @@ export default {
     padding: 10px;
     margin: 0 auto;
     display: flex;
-    height: 500px;
+    min-height: 400px;
     overflow-y: scroll;
     border: 1px solid grey;
     .dragWrap {

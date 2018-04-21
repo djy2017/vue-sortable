@@ -50,7 +50,8 @@ table {
 
 html, body {
 	height: 100%;
-	overflow: hidden;
+	overflow: auto;
+	position: relative;
 	font-size: 12px;
 	font-family: '思源黑体','微软雅黑';
 }
