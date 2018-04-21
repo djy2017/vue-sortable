@@ -1,0 +1,142 @@
+/*
+css reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*custom*/
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: '思源黑体','微软雅黑';
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+	display: block;
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	display: block;
+}
+i,
+em,
+strong {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.clear {
+	clear: both;
+}
+.clearfloat {
+	zoom: 1;
+}
+input,
+textarea,
+button,
+select,
+option {
+  outline: none;
+  border: none;
+}
+button,input {
+	font-family: '思源黑体','微软雅黑';
+}
+.clearfloat:after,
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: '';
+	visibility: hidden;
+	height: 0;
+}
+
+.clearfixed:before {
+	display: table;
+	clear: both;
+	content: '';
+	visibility: hidden;
+	height: 0;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.ovf {
+  overflow: hidden;
+}
+
+.text-hide {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* ::-webkit-scrollbar-thumb  
+{  
+   background-color: #bac9d1;  
+   background-color: green;  
+}  */
